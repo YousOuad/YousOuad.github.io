@@ -876,21 +876,25 @@
 }
 
 .u-section-6 .u-text-1 {
-  margin: 27px 0 0;
+  margin: 17px 0 0;
 }
 
 .u-section-6 .u-text-2 {
   margin: 11px 0 0;
+
 }
 
 .u-section-6 .u-line-1 {
   width: 912px;
   height: 0;
   margin: 1px auto 0 0;
+  font-size: 0.75rem;
+
 }
 
 .u-section-6 .u-text-3 {
   margin: 0 0 1px;
+
 }
 
 .u-section-6 .u-btn-1 {
@@ -911,6 +915,7 @@
 
 @media (max-width: 767px) {
   .u-section-6 .u-line-1 {
+
     width: 540px;
   }
 }

@@ -4049,6 +4049,11 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
+#page-title {
+  text-shadow: 4px 2px 2px black;
+
+}
 mark {
   background-color: #ff0;
   color: #000;
@@ -5562,7 +5567,7 @@ html {
 }
 body {
   height: auto;
-  min-height: 100%;
+  min-height: 100%:
 }
 body,
 aside,
@@ -5619,7 +5624,7 @@ a:focus {
 }
 :not(.u-effect-fade) > .u-opacity-95,
 .u-opacity-95:before {
-  opacity: 0.95;
+  opacity: 0.85;
 }
 :not(.u-effect-fade) > .u-opacity-90,
 .u-opacity-90:before {
@@ -12767,18 +12772,16 @@ section.u-image,
 .u-header.u-sticky,
 .u-overlap .u-header {
   z-index: 20;
-  padding-top: 0.1px;
+  padding-top: 0px;
 }
 .u-overlap .u-header.u-sticky {
   position: fixed;
 }
 .u-overlap.u-overlap-transparent .u-header {
   background-color: transparent !important;
-  background-image: none !important;
 }
 .u-overlap.u-offcanvas-opened .u-header.u-sticky {
   z-index: auto;
-  position: absolute !important;
 }
 .u-overlap.u-offcanvas-opened .u-header.u-sticky + section {
   z-index: -1;
@@ -12800,7 +12803,7 @@ section.u-image,
   display: flex;
   flex-wrap: nowrap;
 }
-@media (max-width: 991px) {
+@media  {
   .u-sheet.u-content-layout {
     flex-direction: column;
     align-items: center;
@@ -34347,14 +34350,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-1 tr:nth-child(even)
         {
             color: #ffffff;
-            background-color: #357c2d;
+            background-color: #1B4072;
         }
 
         .u-button-style.u-custom-color-1,
         .u-button-style.u-custom-color-1[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #357c2d !important;
+            background-color: #1B4072 !important;
         }
 
         .u-button-style.u-custom-color-1:hover,
@@ -34369,7 +34372,7 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > .u-button-style.u-button-style.u-custom-color-1[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #307029 !important;
+            background-color: #1B4072 !important;
         }
 
         .u-hover-custom-color-1:hover,
@@ -34394,11 +34397,11 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-active-custom-color-1[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #357c2d !important;
+            background-color: #1B4072 !important;
         }
 
         a.u-link.u-hover-custom-color-1:hover {
-            color: #357c2d !important;
+            color: #1B4072 !important;
         }
 
         
@@ -34410,14 +34413,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-2 tr:nth-child(even)
         {
             color: #ffffff;
-            background-color: #10caff;
+            background-color: #ffffff;
         }
 
         .u-button-style.u-custom-color-2,
         .u-button-style.u-custom-color-2[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #10caff !important;
+            background-color: #ffffff !important;
         }
 
         .u-button-style.u-custom-color-2:hover,
@@ -34432,7 +34435,7 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > .u-button-style.u-button-style.u-custom-color-2[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #00bef4 !important;
+            background-color: #1B4072 !important;
         }
 
         .u-hover-custom-color-2:hover,
@@ -35069,3 +35072,37 @@ a.u-link.u-text-hover-grey-90:hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+
+#header-icon {
+  height : 42px ;
+  width : 42px 
+
+}
+
+
+#uni-logo-container{
+
+  display : flex ; 
+  flex-direction:  row ;
+  justify-content: space-evenly ;
+
+
+}
+
+#section-container-1{
+  display : flex ; 
+  flex-direction : row ;
+  justify-content: space-between ;
+  flex-basis : 0 ;
+
+}
+
+.project-container{
+  flex-basis : 50% ;
+  flex-grow : 0 ;
+  margin : 1vw
+}
+
+#sec-8b92{
+  height : 300px;
+}

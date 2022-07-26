@@ -297,18 +297,36 @@
 
 .u-section-3 .u-image-1 {
   min-height: 266px;
-  background-image: url("images/unnamed.jpeg");
+  background-image: url("images/Logo_UHIIC.png");
   background-position: 50% 50%;
 }
 
 .u-section-3 .u-image-2 {
-  background-image: url("images/D4CD5D736E4D0CF3C53035C362B2BD2D4F17E1C6_size75_w1080_h1075.jpeg");
+  background-image: url("images/uestc.jpeg");
   min-height: 266px;
   background-position: 50% 50%;
 }
 
 .u-section-3 .u-image-3 {
-  background-image: url("images/Logo_UHIIC.png");
+  background-image: url("images/UCA.jpeg");
+  min-height: 266px;
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-image-4 {
+  min-height: 266px;
+  background-image: url("images/wirk.png");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-image-5 {
+  background-image: url("images/itroad.png");
+  min-height: 266px;
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-image-6 {
+  background-image: url("images/inria.png");
   min-height: 266px;
   background-position: 50% 50%;
 }
@@ -338,6 +356,18 @@
     min-height: 219px;
   }
 }
+  .u-section-3 .u-image-4 {
+    min-height: 219px;
+  }
+}
+  .u-section-3 .u-image-5 {
+    min-height: 219px;
+  }
+}
+  .u-section-3 .u-image-6 {
+    min-height: 219px;
+  }
+}
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
@@ -361,6 +391,15 @@
   }
 
   .u-section-3 .u-image-3 {
+    min-height: 335px;
+  }
+  .u-section-3 .u-image-4 {
+    min-height: 335px;
+  }
+  .u-section-3 .u-image-5 {
+    min-height: 335px;
+  }
+  .u-section-3 .u-image-6 {
     min-height: 335px;
   }
 }
@@ -416,6 +455,16 @@
   .u-section-3 .u-image-3 {
     min-height: 317px;
   }
+  .u-section-3 .u-image-4 {
+    min-height: 317px;
+  }
+  .u-section-3 .u-image-5 {
+    min-height: 317px;
+  }
+  .u-section-3 .u-image-6 {
+    min-height: 317px;
+  }
+    
 }.u-section-4 .u-sheet-1 {
   min-height: 474px;
 }
